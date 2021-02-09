@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="General Suite">
+    <groups>
+        <define name="smoke"/>
+        <define name="regression"/>
+    </groups>
+    <test name="Extent Report Test">
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
